@@ -7,17 +7,14 @@ import Navbar from './components/Navbar';
 
 function App() {
 
-  const tailwind = {
-    btn: 'bg-blue-500 cursor-pointer  hover:bg-orange-400 text-white font-bold py-2 px-2 rounded mt-5 border'
-  }
 
   return (
     <div className="App">
-          <Navbar/>
-          <Header/>
-          <Academies/>
-          <Feedback/>
-          <Footer/>
+      <Navbar />
+      <Header />
+      <Academies />
+      <Feedback />
+      <Footer />
     </div>
   );
 }
